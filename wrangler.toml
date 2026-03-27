@@ -1,0 +1,7 @@
+name = "signage-worker"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+kv_namespaces = [
+  { binding = "SIGNAGE_KV", id = "YOUR_KV_ID" }
+]
